@@ -3,71 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfume Recommender</title>
+    <title>X1</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="form.js" defer></script>
 </head>
 <body>
     <div class="container mt-5">
-        <h1 id="datetime"></h1>
-        <h2>Personalized Perfume Recommender</h2>
-        <form id="perfumeForm">
+        <h1 id="x1"></h1>
+        <h2>Perfume Recommender</h2>
+        <form id="a1">
             <div class="form-group">
-                <label for="fullName">Full Name:</label>
-                <input type="text" id="fullName" class="form-control" required>
-                <small id="fullNameError" class="form-text text-danger"></small>
+                <label for="x2">Please enter your full name:</label>
+                <input type="text" id="x2" class="form-control" required>
+                <small id="z1" class="form-text text-danger"></small>
             </div>
             <div class="form-group">
-                <label for="age">Age:</label>
-                <input type="number" id="age" class="form-control" required>
-                <small id="ageError" class="form-text text-danger"></small>
+                <label for="x3">Enter your Age:</label>
+                <input type="number" id="x3" class="form-control" required>
+                <small id="z2" class="form-text text-danger"></small>
             </div>
             <div class="form-group">
-                <label for="gender">Gender:</label>
+                <label for="y1">Please enter your gender:</label>
                 <div class="form-check">
-                    <input type="radio" id="male" name="gender" value="male" class="form-check-input" required>
-                    <label for="male" class="form-check-label">Male</label>
+                    <input type="radio" id="y1a" name="y1" value="male" class="form-check-input" required>
+                    <label for="y1a" class="form-check-label">Male</label>
                 </div>
                 <div class="form-check">
-                    <input type="radio" id="female" name="gender" value="female" class="form-check-input" required>
-                    <label for="female" class="form-check-label">Female</label>
+                    <input type="radio" id="y1b" name="y1" value="female" class="form-check-input" required>
+                    <label for="y1b" class="form-check-label">Female</label>
                 </div>
-                <small id="genderError" class="form-text text-danger"></small>
+                <small id="z3" class="form-text text-danger"></small>
             </div>
             <div class="form-group">
-                <label for="scentNotes">Preferred Scent Notes:</label>
+                <label for="y2">select you preferred scent:</label>
                 <div class="form-check">
-                    <input type="checkbox" id="floral" name="scentNotes" value="floral" class="form-check-input">
-                    <label for="floral" class="form-check-label">Floral</label>
+                    <input type="checkbox" id="y2a" name="y2" value="floral" class="form-check-input">
+                    <label for="y2a" class="form-check-label">Floral</label>
                 </div>
                 <div class="form-check">
-                    <input type="checkbox" id="woody" name="scentNotes" value="woody" class="form-check-input">
-                    <label for="woody" class="form-check-label">Woody</label>
+                    <input type="checkbox" id="y2b" name="y2" value="woody" class="form-check-input">
+                    <label for="y2b" class="form-check-label">Woody</label>
                 </div>
                 <div class="form-check">
-                    <input type="checkbox" id="citrus" name="scentNotes" value="citrus" class="form-check-input">
-                    <label for="citrus" class="form-check-label">Citrus</label>
+                    <input type="checkbox" id="y2c" name="y2" value="citrus" class="form-check-input">
+                    <label for="y2c" class="form-check-label">Citrus</label>
                 </div>
                 <div class="form-check">
-                    <input type="checkbox" id="spicy" name="scentNotes" value="spicy" class="form-check-input">
-                    <label for="spicy" class="form-check-label">Spicy</label>
+                    <input type="checkbox" id="y2d" name="y2" value="spicy" class="form-check-input">
+                    <label for="y2d" class="form-check-label">Spicy</label>
                 </div>
-                <small id="scentNotesError" class="form-text text-danger"></small>
+                <small id="z4" class="form-text text-danger"></small>
             </div>
             <div class="form-group">
-                <label for="mood">Mood or Occasion:</label>
-                <select id="mood" class="form-control" required>
+                <label for="x4">Please select your mood or occasion:</label>
+                <select id="x4" class="form-control" required>
                     <option value="" disabled selected>Select your mood or occasion</option>
                     <option value="romantic">Romantic</option>
                     <option value="casual">Casual</option>
                     <option value="formal">Formal</option>
                     <option value="energetic">Energetic</option>
                 </select>
-                <small id="moodError" class="form-text text-danger"></small>
+                <small id="z5" class="form-text text-danger"></small>
             </div>
-            <button type="button" class="btn btn-primary" onclick="recommendPerfume()">Recommend Perfume</button>
+            <button type="button" class="btn btn-primary" onclick="a2()">Recommend Perfume</button>
         </form>
-        <div id="results" class="mt-4"></div>
+        <div id="w1" class="mt-4"></div>
     </div>
 </body>
 </html>
